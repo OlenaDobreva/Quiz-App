@@ -1,54 +1,48 @@
 body {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: rgb(125, 200, 213);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 .box {
+  display: flexbox;
+  align-content: space-around;
   width: 600px;
-  margin: 10px;
-  border: 5px solid blueviolet;
-  padding: 0;
-  color: darkmagenta;
-  position: relative;
+  margin: 20px;
+  border: 5px solid rgb(104, 62, 4);
+  padding: 10px;
+  color: darkgreen;
 }
 
 .card {
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .show {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  row-gap: 10px;
 }
 
 h1 {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
   display: flex;
+  flex-direction: row;
 }
 
 img {
   width: 80px;
-}
-
-.card-area {
-  gap: 20px;
-}
-
-.icon {
-  position: absolute;
-  width: 20px;
-  right: 0;
-  top: 0;
 }

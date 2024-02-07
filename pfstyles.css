@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: pink;
+  font-family: cursive;
+  font-size: large;
+}
+
+.myself {
+  display: flex;
+  align-items: center;
+}
+
+.myself img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.myself .text {
+  flex: 1;
+}
