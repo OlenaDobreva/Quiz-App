@@ -5,6 +5,7 @@ body {
   background-color: pink;
   font-family: cursive;
   font-size: large;
+  width: 600px;
 }
 
 .myself {
@@ -20,4 +21,13 @@ body {
 
 .myself .text {
   flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 80px;
 }
