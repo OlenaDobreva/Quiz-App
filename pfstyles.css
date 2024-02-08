@@ -56,3 +56,8 @@ img {
   height: auto;
   margin-left: auto;
 }
+
+h1 {
+  position: fixed;
+  background-color: lightslategray;
+}
