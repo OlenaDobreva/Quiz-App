@@ -11,13 +11,12 @@ body {
   align-items: center;
 }
 .box {
-  display: flexbox;
-  align-content: space-around;
   width: 600px;
-  margin: 20px;
+  margin: 10px;
   border: 5px solid rgb(104, 62, 4);
-  padding: 10px;
+  padding: 0px;
   color: darkgreen;
+  position: relative;
 }
 
 .card {
@@ -45,4 +44,15 @@ footer {
 
 img {
   width: 80px;
+}
+
+.card-area {
+  gap: 20px;
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  top: 0;
 }
